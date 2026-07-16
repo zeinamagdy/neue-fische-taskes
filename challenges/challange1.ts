@@ -70,14 +70,31 @@ const result1 = {
   offline: ["Lucy"],
   away: ["Bob"],
 };
-
+const users2 = [
+  
+  {
+    username: "Lucy",
+    status: "offline",
+    lastActivity: 22,
+  },
+  {
+    username: "Bob",
+    status: "online",
+    lastActivity: 104,
+  },
+];
+const result2 = {
+  offline: ["Lucy"],
+  away: ["Bob"],
+};
 function whoIsOnline(users: any) {
   if (users.length === 0) return {};
   const output = {
-    online: [] as string[],
+    online : [] as string[],
     offline: [] as string[],
     away: [] as string[],
   };
+  
   for (const user of users) {
     if (user.status === "online" && user.lastActivity <= 10) {
       output.online.push(user.username);
@@ -85,9 +102,11 @@ function whoIsOnline(users: any) {
     else if (user.lastActivity > 10)
       output.away = [...output.away, user.username];
   }
+ 
   return output;
 }
 console.log("chanllange1", whoIsOnline([]));
 
 test(whoIsOnline(users1), result1);
 test(whoIsOnline([]), {});
+test(whoIsOnline(users2), result2);
