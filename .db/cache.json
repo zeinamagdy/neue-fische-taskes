@@ -1,7 +1,17 @@
 {
   "4kyu": [],
-  "5kyu": [],
-  "6kyu": [],
-  "7kyu": [],
-  "8kyu": []
+  "5kyu": [
+    "the-hashtag-generator",
+    "valid-parentheses"
+  ],
+  "6kyu": [
+    "does-my-number-look-big-in-this"
+  ],
+  "7kyu": [
+    "predict-your-age!"
+  ],
+  "8kyu": [
+    "filter-out-the-geese",
+    "even-or-odd"
+  ]
 }

@@ -10,7 +10,8 @@
   "scripts": {
     "next": "tsx src/index.ts",
     "solution": "tsx src/solution.ts",
-    "reset": "tsx src/reset.ts"
+    "reset": "tsx src/reset.ts",
+    "test": "tsx src/test.ts"
   },
   "peerDependencies": {
     "typescript": "^5"
