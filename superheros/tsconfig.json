@@ -5,14 +5,20 @@
 
     "target": "esnext",
     "module": "esnext",
-    "lib": ["dom","esnext"],
+    "lib": ["dom", "esnext"],
     "types": [],
 
-    "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "sourceMap": true
+    "sourceMap": true,
+    // new RULES
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

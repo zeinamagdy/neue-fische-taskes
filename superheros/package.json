@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.1"
+  }
+}
