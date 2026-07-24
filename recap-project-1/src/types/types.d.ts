@@ -12,8 +12,4 @@ export type Book = {
 
 export type BookPreview = Pick<Book, "isbn" | "title" | "author" | "publisher">;
 
-export interface ApiResponse<T> {
-  status: number;
-  message: string;
-  data: T;
-}
+

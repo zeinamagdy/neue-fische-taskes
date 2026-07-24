@@ -18,7 +18,7 @@ search?.addEventListener("input", async (e) => {
   for (const book of filteredBooks) {
     tbody?.appendChild(createRow(book));
   }
-});
+}); 
 //Implement a filter to show only books from a specific publisher
 const grouped_books_by_publisher = Object.groupBy(
   books,
@@ -43,4 +43,4 @@ publisher_selector?.addEventListener("change", (e) => {
     tbody?.appendChild(createRow(book));
   }
 });
-console.log("options", grouped_books_by_publisher);
+ 
