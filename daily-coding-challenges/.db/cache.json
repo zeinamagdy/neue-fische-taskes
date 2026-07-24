@@ -8,7 +8,8 @@
     "does-my-number-look-big-in-this"
   ],
   "7kyu": [
-    "predict-your-age!"
+    "predict-your-age!",
+    "average-array"
   ],
   "8kyu": [
     "filter-out-the-geese",

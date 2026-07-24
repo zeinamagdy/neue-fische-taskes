@@ -40,7 +40,7 @@ Finally, if you have no friends in your chat application, the input will be an e
 
 */
 
-import { test } from "@/test.ts";
+import { test } from "./test.ts";
 
 interface User {
   username: string;

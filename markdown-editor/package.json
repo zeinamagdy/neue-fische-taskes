@@ -1,0 +1,19 @@
+{
+  "name": "markdown-editor",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "marked": "^18.0.7"
+  }
+}
